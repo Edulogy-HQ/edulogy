@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(135deg, #f7f9fd, #dae6f9);
+  background-attachment: fixed;
+}
+
+.naruto {
+  background-image: url("/naruto.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.black-gradient {
+  background: linear-gradient(60deg, #1c2327 0%, #818f9d 100%);
+}
